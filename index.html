@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container"></div>
+     <div class="container"></div>
+      <div class="container"></div>
+       <div class="container"></div>
+        <div class="container"></div>
+        <div class="container"></div>
+        <div class="container"></div>
+        <div class="container"></div>
+        <div class="container"></div>
+
+    <style>
+        .container{
+            display:inline-block;
+            border:2px solid black;
+            width: 200px;
+            height:200px;
+            padding: 2px;
+            margin: 5px;
+            background-color: yellowgreen;
+
+        }
+        @media screen and (max-width:600px){
+            .container{
+                background-color: aqua;
+            }
+        }
+        @media screen and (max-width:500px){
+            .container{
+                background-color:orange;
+            }
+        }
+        @media screen and (max-width:400px){
+            .container{
+                background-color:blueviolet;
+            }
+        }
+        @media screen and (max-width:300px){
+            .container{
+                background-color:brown;
+            }
+        }
+        @media screen and (max-width:200px){
+            .container{
+                background-color:yellow;
+            }
+        }
+    </style>
+</body>
+</html>
